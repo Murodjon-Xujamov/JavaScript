@@ -1,0 +1,33 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 97vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+
+    /* transition: background 0.1s linear, color 0.1s; */
+}
+
+body.dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+label {
+    user-select: none;
+    cursor: pointer;
+}

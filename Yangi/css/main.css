@@ -1,0 +1,35 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 95vh;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.toast {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+}

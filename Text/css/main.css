@@ -1,0 +1,15 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 97vh;
+    font-style: italic;
+}
